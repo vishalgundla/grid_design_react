@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div{
+  background-color: #f2f6ff;
+}
+header div{
+  background-color: #fff;
+}
+.topbar {
+  display: flex;
+  height: 50px;
+  padding: 1em 4.875em;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+.logo {
+  width: auto;
+  height: 100%;
+  padding-left: 80px;
+}
+
+.logo_edyoda {
+  font-size: 2.1em;
+  margin-top: 0;
+  width: 130px;
+  background-image: linear-gradient(269deg,#0048ff,#0096ff),linear-gradient(#000,#000);
+  color: #0084ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.08;
+  letter-spacing: -.9px;
+  text-align: left;
+}
+
+.logo_stories {
+  margin: 2px;
+  object-fit: contain;
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: .8;
+  letter-spacing: .9px;
+  color: #000;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 13px 80px;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  margin: 0;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: .9px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: 300;
+}
+
+.dropdown_icon {
+  max-height: 5px;
+  padding-top: 10px;
+  padding-left: 8px;
+}
+
+.category_container {
+  margin-bottom: 20px;
+  size: 16px;
+  padding-top: 16px;
+  width: fit-content;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -.6px;
+  text-align: left;
+  color: #000;
+  margin-left: 80px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 1em;
+}
+
+.filter-section-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.filter-section-icon {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+.filter-section-text {
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-left: 0.5em;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.category-item {
+  width: auto;
+  font-size: 0.75em;
+  color: #0084ff;
+  padding: 6px 16px;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.category-item-active {
+  color: #fff;
+  background: #0084ff;
+  background: -webkit-linear-gradient(181deg, #0048ff, #0096ff);
+  background: -o-linear-gradient(181deg, #0048ff, #0096ff);
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+}
+
+/* Cards.css */
+.cards-container {
+  background-color: #f2f6ff;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin-right: 200px;
+}
+
+.card {
+  width: 33.33%;
+  max-width: 19.5em;
+  min-height: 25em;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1em;
+  background-color: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 168, 255, 0.3);
+  box-sizing: border-box;
+}
+
+.blog-image-container {
+  width: 100%;
+  height: 176px;
+}
+
+.blog-image {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.blog-card-details {
+  padding: 10px 24px;
+}
+
+.blog-title {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 1.14;
+  color: #000;
+  margin: 0;
+  padding: 10px 24px;
+}
+
+.blog-author-name {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 1em;
+  color: #0096ff;
+  padding-left: 24px;
+  margin: 0;
+}
+
+.blog-publish-date {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  line-height: 2;
+  margin-top: 0.3em;
+}
+
+.blog-description {
+  opacity: 0.5;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  color: #000;
+  margin: 0.3em 0;
+  padding: 5px 24px;
+}
+
+.cards-footer {
+  background-color: #172146;
+  padding: 40px 16%;
+}
+.category-item:hover{
+  background-color:#0084ff ;
+  color:#fff;
+}
